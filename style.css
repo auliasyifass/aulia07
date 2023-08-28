@@ -1,0 +1,61 @@
+h1 {
+  color: lightblue;
+  font-family: arial;
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  text-indent: 30px;
+  line-height: 1.5;
+  font-size: 16px;
+  color: royalblue;
+  font-family: verdana;
+}
+
+li {
+  color: cornflowerblue;
+  font-size: 12px;
+  font-family: cursive;
+}
+
+/* Gaya untuk hyperlink */
+a:link {
+  color: midnightblue;
+  text-decoration: none; /* Menghapus garis bawah default pada link */
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline; /* Menambah garis bawah saat hover pada link */
+}
+
+a:active {
+  color: darkcyan;
+}
+
+/* Gaya untuk tombol */
+.button {
+  border-radius: 5px;
+  border: none;
+  background-color: midnightblue;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Efek transisi */
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+}
